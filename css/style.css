@@ -141,16 +141,6 @@ header {
     padding-bottom: 98px;
 }
 
-.works__contents-vl .vl {
-    content: "";
-    /*線の形状*/
-    width: 1px;
-    height: 100px;
-    background: #161616;
-    margin: 0 auto;
-    padding-top: 98px;
-}
-
 .works__heading {
     margin: 0 auto;
 }
@@ -375,6 +365,19 @@ header {
     width: 100%;
 }
 
+.works__contents-vl {
+    padding-top: 98px;
+}
+
+.works__contents-vl .vl {
+    content: "";
+    /*線の形状*/
+    width: 1px;
+    height: 100px;
+    background: #161616;
+    margin: 0 auto;
+}
+
 /* about */
 
 .about {
@@ -517,7 +520,7 @@ header {
     left: 125px;
 }
 
-.about__are {
+.about__area {
     margin: 0 auto;
     box-sizing: border-box;
     padding-bottom: 96px;
