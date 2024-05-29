@@ -64,7 +64,7 @@ const webStorage = function () {
         
     } else {
         sessionStorage.setItem("visit", "true");
-        $(".loading").delay(5000).fadeOut(function () {
+        $(".loading").delay(5500).fadeOut(function () {
             $("body").addClass("appear");
         });
     }
@@ -116,7 +116,7 @@ $(document).ready(function() {
                 elements[index].css('opacity', '1');
                 elements[index].css('transform', 'translateY(0)');
                 index++;
-                setTimeout(showElement, 100);  // 各要素の表示間隔を調整
+                setTimeout(showElement, 500);  // 各要素の表示間隔を調整
             }
         }
   
