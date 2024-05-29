@@ -15,19 +15,41 @@
     href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Noto+Sans+JP:wght@100..900&family=Noto+Serif+JP:wght@200;300;400;500;600;700;900&display=swap"
     rel="stylesheet">
 <link rel="stylesheet" href="https://use.typekit.net/gcr3ltu.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="https://unpkg.com/scrollreveal"></script>
+<script src="./js/script.js"></script>
 
+<script type="text/javascript">
+    let submitted = false;
+</script>
+<iframe name="hidden_iframe" id="hidden_iframe" style="display: none"
+    onload="if(submitted){window.location='./thanks.html';}"></iframe>
 
 
 <body>
+
+    <!-- loading -->
+    <div class="loading" id="page-loader">
+        <div class="loading-bg">
+            <div class="load-img">
+                <img src="./images/SVG/kazuhiro_logo.svg" alt="logo" />
+            </div>
+            <p id="welcome-message"></p>
+        </div>
+    </div>
+
+
     <!-- ヘッダー -->
     <header id="Header">
         <div class="header__wrapper">
             <div class="header__logo">
-                <a href="">
+                <a href="#Header">
                     <img src="./images/SVG/kazuhiro_logo.svg" alt="logo">
+
                 </a>
             </div>
             <nav class="header__nav">
+
                 <ul>
                     <li><a href="#Works">WORKS</a></li>
                     <li><a href="#About">ABOUT</a></li>
@@ -35,7 +57,27 @@
                 </ul>
             </nav>
         </div>
+
+        <!-- sp ヘッダー -->
+
+        <div class="header__menubutton-sp">
+            <span></span>
+            <span>menu</span>
+            <span></span>
+        </div>
+        <nav class="header__nav-sp">
+            <img src="./images/SVG/kazuhiro_logo-white.svg" alt="">
+            <ul>
+                <li><a class="header__navlink-sp" href="#Header">HOME</a></li>
+                <li><a class="header__navlink-sp" href="#Works">WORKS</a></li>
+                <li><a class="header__navlink-sp" href="#About">ABOUT</a></li>
+                <li><a class="header__navlink-sp" href="#Contact">CONTACT</a></li>
+            </ul>
+        </nav>
+
     </header>
+
+    <!-- main -->
 
     <main class="main">
         <!-- メインビジュアル -->
@@ -45,7 +87,13 @@
                     <img src="./images/png/mv_webdesign@2x.png" alt="webdesigner">
                 </p>
                 <h1 class="mv__main__imgtext">
-                    <img src="./images/png/mv_kazuhiro@2x.png" alt="kazuhiro">
+                    <picture>
+                        <source srcset="./images/png/mv_kazuhiro_sp@2x.png" media="(max-width:767px)">
+                        <img src="./images/png/mv_kazuhiro@2x.png" alt="kazuhiro">
+
+
+                    </picture>
+
                 </h1>
                 <p class="mv__bottom__imgtext">
                     <img src="./images/png/mv_design@2x.png" alt="design">
@@ -109,7 +157,7 @@
                             </div>
                         </div>
                         <a class="works__img" href="./works/works_portfolio.html">
-                            <img src="./images/png/works_pc_designcafe.png" alt="portfolio">
+                            <img src="./images/png/works_pc_portfolio.png" alt="portfolio">
                         </a>
                     </div>
 
@@ -122,12 +170,12 @@
                                 <br>
                             </p>
                             <div class="works__button">
-                                <a class="works__button-text" href="">
+                                <a class="works__button-text" href="./works/works_lifehairdesign.html">
                                     view detail
                                 </a>
                             </div>
                         </div>
-                        <a class="works__img" href="">
+                        <a class="works__img" href="./works/works_lifehairdesign.html">
                             <img src="./images/png/works_pc_lifehairdesign.png" alt="salon">
                         </a>
                     </div>
@@ -140,12 +188,12 @@
                                 <br>
                             </p>
                             <div class="works__button">
-                                <a class="works__button-text" href="">
+                                <a class="works__button-text" href="./works/works_designcafe.html">
                                     view detail
                                 </a>
                             </div>
                         </div>
-                        <a class="works__img" href="">
+                        <a class="works__img" href="./works/works_designcafe.html">
                             <img src="./images/png/works_pc_designcafe.png" alt="designcafe">
                         </a>
                     </div>
@@ -158,12 +206,12 @@
                                 <br>
                             </p>
                             <div class="works__button">
-                                <a class="works__button-text" href="">
+                                <a class="works__button-text" href="./works/works_workers.html">
                                     view detail
                                 </a>
                             </div>
                         </div>
-                        <a class="works__img" href="">
+                        <a class="works__img" href="./works/works_workers.html">
                             <img src="./images/png/works_pc_workers.png" alt="workers">
                         </a>
                     </div>
@@ -185,13 +233,13 @@
 
                     <div class="works__humberger">
                         <div class="works__imgarea">
-                            <a class="works__img-first" href="">
-                                <img src="./images/jpg/works_pc_bergerpop-100.jpg" alt="ハンバーガー">
+                            <a class="works__img-first" href="./works/works_humberger.html">
+                                <img src="./images/jpg/works_bergerpop.jpg" alt="ハンバーガー">
                                 <p>POP ver </p>
                             </a>
 
-                            <a class="works__img-second" href="">
-                                <img src="./images/jpg/works_pc_bergerluxury-100.jpg" alt="ハンバーガー">
+                            <a class="works__img-second" href="./works/works_humberger.html">
+                                <img src="./images/jpg/works_bergerluxury.jpg" alt="ハンバーガー">
                                 <p>高級 ver </p>
                             </a>
                         </div>
@@ -201,7 +249,7 @@
                                 <br>
                             </p>
                             <div class="works__button">
-                                <a class="works__button-text" href="">
+                                <a class="works__button-text" href="./works/works_humberger.html">
                                     view detail
                                 </a>
                             </div>
@@ -217,13 +265,13 @@
                                 <br>
                             </p>
                             <div class="works__button">
-                                <a class="works__button-text" href="">
+                                <a class="works__button-text" href="./works/works_trrrrip.html">
                                     view detail
                                 </a>
                             </div>
                         </div>
-                        <a class="works__img" href="">
-                            <img src="./images/jpg/works_pc_trrrrip-100.jpg" alt="">
+                        <a class="works__img" href="./works/works_trrrrip.html">
+                            <img src="./images/jpg/works_pc_trrrrip-100.jpg" alt="trrrrip">
                         </a>
                     </div>
                 </div>
@@ -258,13 +306,13 @@
                 <div class="about__contents">
                     <div class="about__block">
                         <p class="about__text-en">
-                            Design is art optimized to achieve a goal
+                            Design is art optimized to<br class="sp-br"> achieve a goal
                         </p>
                         <p class="about__text-ja">
-                            デザインとは、目的達成のために最適化されたアートである
+                            デザインとは、目的達成のために<br class="sp-br">最適化されたアートである
                         </p>
                         <p class="about__subtext">
-                            0から1を生み出し、お客様の想いをカタチに1から共に作り出す
+                            0から1を生み出し、お客様の想いを<br class="sp-br">カタチに1から共に作り出す
                         </p>
                     </div>
 
@@ -314,9 +362,10 @@
 
             <div class="contact__inner">
                 <div class="contact__text">
-                    <p class="contact__text-en">If you would like to make a request or consult with us, please feel free
+                    <p class="contact__text-en">If you would like to make a request or consult with us, <br>please feel
+                        free
                         to contact us using the form below</p>
-                    <p class="contact__text-ja">ご依頼やご相談をご希望の方は、下記フォームよりお気軽にお問い合わせください。</p>
+                    <p class="contact__text-ja">ご依頼やご相談をご希望の方は、<br>下記フォームよりお気軽に<br>お問い合わせください。</p>
                 </div>
             </div>
 
@@ -326,7 +375,7 @@
 
             <form
                 action="https://docs.google.com/forms/u/0/d/e/1FAIpQLScb-_KR5wuBt3kqXtT-XYN5hUd0vmIxdbsY1ZkBkF8tnL1p-g/formResponse"
-                method="post" class="contact__form">
+                method="post" class="contact__form" target="hidden_iframe" onsubmit="submitted=true;">
 
                 <!--name  -->
                 <div class="contact___form-item">
