@@ -44,7 +44,9 @@
 .works__main__container {
     margin: 0 auto;
     max-width: 1080px;
-    padding: 0 32px;
+    padding-left: 32px;
+    padding-right: 32px;
+
     padding-bottom: 144px;
 }
 
@@ -151,7 +153,7 @@
 }
 
 .works__main__list-area li p:nth-child(1) {
-    font-weight: 500;
+    font-weight: 600;
 }
 
 /* 画像 */
@@ -165,7 +167,7 @@
 }
 
 .works__main__container-imgblock img {
-    filter: drop-shadow(0px 20px 20px rgba(29, 29, 29, 0.1));
+    filter: drop-shadow(0px 5px 5px rgba(29, 29, 29, 0.5));
 }
 
 /*  区切り横線 */
@@ -288,6 +290,22 @@
     .footer__copyright {
         font-size: 9px;
     }
+
+    .works__main__list-area li {
+        display: block;
+    }
+
+    .works__main__list-text {
+        width: 100%;
+    }
+
+    .works__main__list-text {
+        padding-top: 16px;
+    }
+
+    .works__main__list-title {
+        width: 100%;
+    }
 }
 
 /* 690 */
@@ -368,6 +386,10 @@
         padding-bottom: 80px;
     }
 
+    .works__main__container-img {
+        padding-top: 114px;
+    }
+
     .works__main__title {
         font-size: 23px;
     }
@@ -390,5 +412,20 @@
     .about__footer__contents {
         padding-top: 98px;
         padding-bottom: 128px;
+    }
+
+    .works__main__container {
+        padding-left: 3%;
+        padding-right: 3%;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .works__main__title {
+        font-size: 18px;
+    }
+
+    .works__main__subtitle {
+        font-size: 12px;
     }
 }

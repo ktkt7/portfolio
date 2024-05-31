@@ -2,10 +2,12 @@
 
 body {
     background-color: #e2e2e7;
+    overflow-x: hidden;
 }
 
 /* loading */
 .loading {
+    display: none;
     position: fixed;
     z-index: 9999;
     width: 100%;
@@ -1377,7 +1379,7 @@ textarea.contact___form-input {
 
         /* position: absolute; */
         top: 40px;
-        right: 10px;
+        right: 1px;
         cursor: pointer;
         z-index: 9999;
     }
@@ -1559,5 +1561,9 @@ textarea.contact___form-input {
 
     .contact___form-submit button::after {
         left: 100px;
+    }
+
+    .slide-in_inner {
+        font-size: 20px;
     }
 }
