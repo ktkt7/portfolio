@@ -2,7 +2,7 @@
 (function (d) {
     var config = {
         kitId: "brb6avz",
-        scriptTimeout: 3000,
+        scriptTimeout: 5000,
         async: true,
       },
       h = d.documentElement,
