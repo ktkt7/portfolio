@@ -23,7 +23,7 @@ body {
     background-color: #e2e2e7;
     transform: translateY(0);
     animation: slideUp 1s ease-out forwards;
-    animation-delay: 3s;
+    animation-delay: 3.5s;
     text-align: center;
     display: flex;
     flex-direction: column;
