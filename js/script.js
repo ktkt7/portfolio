@@ -71,9 +71,9 @@
         }
         welcomeMessageDiv.append(span);
         index++;
-        setTimeout(typeMessage, 90); // タイピングの速度を調整
+        setTimeout(typeMessage, 100); // タイピングの速度を調整
       } else {
-        setTimeout(showMainContent, 1000); // メインコンテンツを表示するまでの遅延を調整
+        setTimeout(showMainContent, 1500); // メインコンテンツを表示するまでの遅延を調整
       }
     }
   
