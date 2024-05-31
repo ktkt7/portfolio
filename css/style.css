@@ -1429,6 +1429,25 @@ textarea.contact___form-input {
     .works__trrrrip a {
         width: 250px;
     }
+
+    .about__button {
+        width: 320px;
+        height: 320px;
+
+        margin: 0 auto;
+    }
+    .about__btnlink {
+        width: 320px;
+        height: 320px;
+    }
+    .about__btnlink::before {
+        width: 320px;
+        height: 320px;
+    }
+    .about__btnlink::after {
+        width: 180px;
+        height: 12px;
+    }
 }
 
 /* 375 */
@@ -1607,10 +1626,14 @@ textarea.contact___form-input {
     .about__btnlink {
         width: 250px;
         height: 250px;
+        font-size: 25px;
     }
     .about__btnlink::before {
         width: 250px;
         height: 250px;
+
+        top: -15px;
+        left: -15px;
     }
     .about__btnlink::after {
         width: 110px;
