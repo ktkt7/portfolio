@@ -160,11 +160,13 @@ header {
 
 .main {
     margin: 0 auto;
+    box-sizing: border-box;
 }
 
 .mv {
     margin: 0 auto;
     padding-bottom: 98px;
+    box-sizing: border-box;
 }
 
 .mv__inner {
