@@ -310,9 +310,6 @@
 
 /* 690 */
 @media screen and (max-width: 690px) {
-    .size-br {
-        display: inline;
-    }
 }
 
 /* 600*/
@@ -340,6 +337,9 @@
     }
 }
 
+@media screen and (max-width: 500px) {
+}
+
 /* 480*/
 @media screen and (max-width: 480px) {
     .works__main__title {
@@ -356,6 +356,9 @@
 
     .banner-img {
         width: 70%;
+    }
+    .size-br {
+        display: inline;
     }
 }
 

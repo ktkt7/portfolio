@@ -249,6 +249,8 @@
     margin: 0 auto;
     max-width: 1080px;
     padding-bottom: 144px;
+    padding-left: 10px;
+    padding-right: 20px;
 }
 
 .about__career__maintitle {
@@ -410,6 +412,10 @@
     display: none;
 }
 
+.works__main__list-area br {
+    display: none;
+}
+
 /* 1080 */
 @media screen and (max-width: 1080px) {
     .about__maintitle {
@@ -497,10 +503,25 @@
     .about__maintitle {
         font-size: 60px;
     }
-    /* about___mainsubtitle */
+    .about___mainsubtitle {
+        font-size: 16px;
+    }
 
     .about__main__text-en {
         font-size: 35px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .about__main__heading {
+        padding-top: 180px;
+    }
+    .about__main__contents {
+        padding-top: 144px;
+    }
+
+    .works__main__list-area br {
+        display: inline;
     }
 }
 
@@ -540,24 +561,10 @@
 }
 
 @media screen and (max-width: 375px) {
-    /* .header__wrapper {
-        margin: 0 auto;
-        padding-top: 20px;
-    } */
-    /* .header__nav {
-        display: none;
-    } */
-
-    /* ハンバーガーメニュー */
-    .header__menubutton-sp {
-        opacity: 1;
-    }
-
     .about__maintitle {
         font-size: 50px;
         margin-bottom: -10px;
     }
-    /* about___mainsubtitle */
 
     .about__skill__title img {
         margin-bottom: -10px;
@@ -576,11 +583,6 @@
     .about__career__sub {
         font-size: 14px;
     }
-
-    .about__main__heading {
-        padding-top: 180px;
-    }
-
     .about__main__contents {
         padding-top: 128px;
     }

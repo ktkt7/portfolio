@@ -175,11 +175,11 @@
     });
     ScrollReveal().reveal(
       ".about__skill__top-hr , .about__career__title , .about__career__subtitle",
-      { delay: 200, origin: "left", distance: "10px" }
+      { delay: 200, origin: "left", distance: "20px" }
     );
     ScrollReveal().reveal(
       ".about__skill__title  , .about__skill__subtitle,.about__career__top-hr",
-      { delay: 200, origin: "right", distance: "10px" }
+      { delay: 200, origin: "right", distance: "5px" }
     );
     ScrollReveal().reveal(".timeline li ", {
       delay: 200,
