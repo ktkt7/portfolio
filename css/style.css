@@ -22,7 +22,7 @@ body {
     width: 100%;
     background-color: #e2e2e7;
     transform: translateY(0);
-    animation: slideUp 0.8s ease-out forwards;
+    animation: slideUp 1s ease-out forwards;
     animation-delay: 3s;
     text-align: center;
     display: flex;
@@ -61,12 +61,6 @@ body {
     font-family: mittwoch, serif;
     font-weight: bold;
 }
-
-/* .mv__main__imgtext, .mv__top__imgtext, .mv__bottom__imgtext, #Header {
-  opacity: 0;
-  transform: translateY(20px);
-  transition: opacity 1s, transform 1s;  // Adjust the transition duration
-} */
 
 .mv__main__imgtext,
 .mv__top__imgtext,
