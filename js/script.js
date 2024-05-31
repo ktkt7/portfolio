@@ -73,7 +73,7 @@
         index++;
         setTimeout(typeMessage, 150); // タイピングの速度を調整
       } else {
-        setTimeout(showMainContent, 1000); // メインコンテンツを表示するまでの遅延を調整
+        setTimeout(showMainContent, 2000); // メインコンテンツを表示するまでの遅延を調整
       }
     }
   
