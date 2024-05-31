@@ -143,12 +143,12 @@
     });
     ScrollReveal().reveal(
       ".works__title , .works_subtitle , .works__contents-hr, .works__imgtext",
-      { delay: 300, origin: "left", distance: "5px" }
+      { delay: 300, origin: "left", distance: "10px" }
     );
     ScrollReveal().reveal(".works_top-hr  , .circle", {
       delay: 300,
       origin: "right",
-      distance: "5px",
+      distance: "10px",
     });
     ScrollReveal().reveal(
       ".works__portfolio, .works__salon, .works__designcafe, .works__workers,.works__humberger,.works__trrrrip,.about__heading,.about__contents,.about__area,.contact",
