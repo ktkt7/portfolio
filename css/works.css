@@ -421,6 +421,11 @@
         padding-left: 3%;
         padding-right: 3%;
     }
+
+    .works__main__container-text,
+    .works__main__list-area p {
+        font-size: 15px;
+    }
 }
 
 @media screen and (max-width: 360px) {
