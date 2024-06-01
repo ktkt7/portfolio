@@ -348,6 +348,10 @@ header {
     align-items: center;
 }
 
+.works__button:hover {
+    opacity: 0.5;
+}
+
 /* 矢印 */
 .works__button::after {
     position: relative;
@@ -361,6 +365,10 @@ header {
     border-right: 0;
     top: 24px;
     right: 20px;
+}
+
+.works__button:hover:after {
+    opacity: 0.5;
 }
 
 .works__img {

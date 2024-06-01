@@ -209,9 +209,7 @@
 }
 
 .works__main__containerbtn:hover {
-    color: #e2e2e7;
-    background-color: #161616;
-    opacity: 0.7;
+    opacity: 0.5;
 }
 
 .works__main__containerbtn a {
@@ -243,7 +241,7 @@
 }
 
 .works__main__containerbtn:hover:before {
-    border-right: 5px solid #e2e2e7;
+    opacity: 0.5;
 }
 
 .size-br {
