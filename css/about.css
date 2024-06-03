@@ -547,6 +547,7 @@
 
     .about__skill__text-first {
         font-size: 20px;
+        line-height: 1.75;
     }
     .about__skill__inner-labal::after {
         left: -60px;
