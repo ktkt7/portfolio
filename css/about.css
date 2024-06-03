@@ -210,8 +210,8 @@
 
 .about__skill__inner-labal {
     font-size: 40px;
-    padding-bottom: 96px;
-    padding-top: 60px;
+    padding-bottom: 70px;
+    padding-top: 64px;
 }
 
 .about__skill__inner-labal::after {
@@ -309,6 +309,8 @@
     float: left;
     border-left: 1px #161616 solid;
     padding: 10px 0 80px 40px;
+    line-height: 1.43;
+    overflow-wrap: break-word;
 }
 
 .timeline__text:before {
@@ -542,12 +544,14 @@
     }
     .about__skill__inner-labal {
         font-size: 30px;
-        padding-bottom: 60px;
+        padding-bottom: 64px;
+        padding-top: 48px;
     }
 
     .about__skill__text-first {
         font-size: 20px;
-        line-height: 1.75;
+
+        padding-bottom: 40px;
     }
     .about__skill__inner-labal::after {
         left: -60px;
@@ -596,5 +600,51 @@
     .about__footer__contents {
         padding-top: 98px;
         padding-bottom: 128px;
+    }
+
+    .about__skill__inner {
+        width: 300px;
+        height: 300px;
+    }
+    .about__skill__inner-labal {
+        font-size: 30px;
+        padding-bottom: 60px;
+        padding-top: 40px;
+    }
+
+    .about__skill__text-first {
+        font-size: 20px;
+
+        padding-bottom: 40px;
+    }
+    .about__skill__inner-labal::after {
+        left: -60px;
+    }
+
+    /* .about__main__block-sub p br {
+        display: none;
+    } */
+
+    .about__main__block-sub p {
+        margin: 0 auto;
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .about__main__block {
+        max-width: 320px;
+    }
+
+    .about__main__block-glass {
+        width: 100%;
+    }
+
+    .about__main__block-en {
+        font-size: 16px;
+    }
+
+    .about__main__block-sub {
+        font-size: 14px;
     }
 }
