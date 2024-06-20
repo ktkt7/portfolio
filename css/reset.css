@@ -20,10 +20,6 @@ dl {
     color: #161616;
     font-family: "Noto Serif JP", serif, "Cormorant Garamond", serif,
         "Noto Sans JP", sans-serif, "mittwoch", serif;
-
-    /* "A1 Mincho", "游明朝", YuMincho,
-        "Hiragino Mincho ProN W3", "ヒラギノ明朝 ProN W3",
-        "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif; */
     font-feature-settings: "palt";
     box-sizing: border-box;
 }
@@ -50,7 +46,3 @@ img {
     vertical-align: bottom;
     border: none;
 }
-
-/* * {
-    outline: 2px red solid;
-} */

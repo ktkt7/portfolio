@@ -68,7 +68,6 @@ body {
 .header__menubutton-sp {
     opacity: 0;
     transform: translateY(20px);
-    /* Adjust the transition duration */
     transition: opacity 1s, transform 1s;
 }
 
@@ -80,7 +79,6 @@ header {
 
 .header__logo {
     width: 80px;
-    /* line-height: 1px; */
     z-index: 9998;
 }
 
@@ -100,8 +98,6 @@ header {
     justify-content: space-between;
     box-sizing: border-box;
     padding-top: 32px;
-    /* padding-left: 32px; */
-    /* padding-right: 32px; */
     padding-left: 2.3%;
     padding-right: 2.3%;
     position: fixed;
@@ -195,10 +191,6 @@ header {
     height: 72px;
     max-width: none;
 }
-
-/* .sp__mv {
-    display: none;
-} */
 
 /* 縦区切り線 */
 
@@ -372,7 +364,6 @@ header {
 }
 
 .works__img {
-    /* width: 785px; */
     margin-bottom: -20px;
 }
 .works__img img {
@@ -487,7 +478,6 @@ header {
 
 .about__title {
     margin: 0 auto;
-    /* width: 120%; */
     margin-top: -30px;
 }
 
@@ -538,7 +528,6 @@ header {
 
 .about__text-ja {
     font-size: 16px;
-    /* text-align: center; */
     padding-top: 10px;
     line-height: 0.75;
 }
