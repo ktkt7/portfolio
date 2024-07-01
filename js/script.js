@@ -135,7 +135,7 @@
   // スクロール
   $(function () {
     // index.html
-    ScrollReveal({ reset: true });
+    ScrollReveal({ reset: false });
     ScrollReveal().reveal(".mv__contents-vl, .works__contents-vl,.about__vl ", {
       delay: 400,
       origin: "top",
