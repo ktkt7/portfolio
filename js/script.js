@@ -157,7 +157,7 @@
         distance: "5px",
       });
     ScrollReveal().reveal(
-      ".works__portfolio, .works__salon, .works__designcafe, .works__workers,.works__humberger,.works__trrrrip,.about__heading,.about__contents,.about__area,.contact",
+      ".works__portfolio, .works__salon, .works__designcafe, .works__workers,.works__humberger,.works__trrrrip,.works__flower,.about__heading,.about__contents,.about__area,.contact",
       { delay: 300, origin: "bottom", distance: "40px" }
     );
   
@@ -186,12 +186,12 @@
       origin: "top",
       distance: "50px",
       interval: "200",
-      reset: false,
+     
     });
   });
   
   $(function () {
-    var $pageTop = $(".pagetop a");
+    var $pageTop = $(".pagetop a, .header__logo a");
     $pageTop.on("click", function () {
       $("body,html").animate(
         {
