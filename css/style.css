@@ -295,7 +295,7 @@ header {
     margin: 0 auto;
     display: flex;
     justify-content: space-around;
-    padding-top: 100px;
+    padding-top: 50px;
 }
 
 .works__block {
@@ -397,7 +397,7 @@ header {
 .works__humberger {
     margin: 0 auto;
     max-width: 1080px;
-    padding-top: 100px;
+    padding-top: 50px;
 }
 
 .works__imgarea {
@@ -431,12 +431,11 @@ header {
     max-width: 1080px;
 }
 
-.works__trrrrip .works__block {
+.works__trrrrip .works__block,
+.works__flower .works__block,
+.works__piza .works__block,
+.works__dental .works__block {
     margin-bottom: -20px;
-}
-
-.works__trrrrip a {
-    width: 360px;
 }
 
 .works__trrrrip img {
@@ -447,9 +446,29 @@ header {
     margin: 0 auto;
     display: flex;
     padding-top: 100px;
-    margin-bottom: 20px;
     gap: 50px;
     max-width: 1080px;
+    margin-bottom: 20px;
+}
+
+.works__piza {
+    margin: 0 auto;
+    display: flex;
+    padding-top: 100px;
+    gap: 50px;
+    max-width: 1080px;
+    margin-bottom: 20px;
+}
+
+.works__dental {
+    margin: 0 auto;
+    display: flex;
+    padding-top: 10px;
+    margin-bottom: 20px;
+    justify-content: flex-end;
+    gap: 50px;
+    max-width: 1080px;
+    padding-top: 100px;
 }
 
 .works__contents-vl {
@@ -849,7 +868,7 @@ textarea.contact___form-input {
 
 @media screen and (max-width: 1080px) {
     .works__contents {
-        width: 85%;
+        width: 90%;
     }
     .circle {
         width: 190px;
@@ -904,8 +923,7 @@ textarea.contact___form-input {
     .works__portfolio,
     .works__designcafe,
     .works__salon,
-    .works__workers,
-    .works__trrrrip {
+    .works__workers {
         flex-direction: column-reverse;
         row-gap: 40px;
     }
@@ -956,12 +974,6 @@ textarea.contact___form-input {
 
     .works__img-second {
         width: 90%;
-    }
-
-    .works__trrrrip {
-        margin: 0 auto;
-        padding-top: 98px;
-        align-items: flex-end;
     }
 
     .about__title {
@@ -1059,6 +1071,33 @@ textarea.contact___form-input {
         height: 60px;
     }
 
+    .works__portfolio,
+    .works__humberger,
+    .works__piza {
+        padding-top: 50px;
+    }
+    .works__designcafe,
+    .works__salon,
+    .works__workers {
+        padding-top: 100px;
+    }
+
+    .works__trrrrip {
+        flex-direction: column-reverse;
+        row-gap: 40px;
+        margin: 0 auto;
+        padding-top: 98px;
+        align-items: flex-end;
+    }
+    .works__flower {
+        flex-direction: column;
+        row-gap: 40px;
+        align-items: flex-start;
+    }
+    .works__flower .works__block {
+        align-self: flex-start;
+    }
+
     .about__contents {
         flex-direction: column;
     }
@@ -1117,6 +1156,30 @@ textarea.contact___form-input {
 
     .works__contents .works__imgtext img {
         height: 55px;
+    }
+
+    .works__portfolio,
+    .works__humberger,
+    .works__piza {
+        padding-top: 0px;
+    }
+
+    .works__piza {
+        flex-direction: column;
+        row-gap: 40px;
+        align-items: flex-start;
+    }
+
+    .works__piza .works__block {
+        align-self: flex-start;
+    }
+
+    .works__dental {
+        flex-direction: column-reverse;
+        row-gap: 40px;
+        margin: 0 auto;
+        padding-top: 98px;
+        align-items: flex-end;
     }
 
     .about__area-hr {
@@ -1183,11 +1246,13 @@ textarea.contact___form-input {
         width: 70%;
     }
 
+    .works__flower img,
     .works__trrrrip img {
-        width: 100%;
+        width: 80%;
     }
-    .works__trrrrip a {
-        width: 324px;
+
+    .works__trrrrip img {
+        margin-left: 85px;
     }
 
     .contact__title {
@@ -1303,6 +1368,12 @@ textarea.contact___form-input {
     }
 }
 
+@media screen and (max-width: 490px) {
+    .works__trrrrip img {
+        margin-left: 70px;
+    }
+}
+
 @media screen and (max-width: 450px) {
     .contact__form {
         max-width: 370px;
@@ -1313,12 +1384,7 @@ textarea.contact___form-input {
     }
 
     .works__trrrrip img {
-        margin: 0 auto;
-        width: 100%;
-    }
-
-    .works__trrrrip a {
-        width: 250px;
+        margin-left: 50px;
     }
 
     .about__button {
@@ -1338,6 +1404,10 @@ textarea.contact___form-input {
     .about__btnlink::after {
         width: 180px;
         height: 12px;
+    }
+
+    .works__trrrrip img {
+        margin-left: 70px;
     }
 }
 
@@ -1375,21 +1445,25 @@ textarea.contact___form-input {
     }
 
     .works__trrrrip img {
-        width: 80%;
+        width: 90%;
+        margin-left: 30px;
     }
+
+    .works__trrrrip img {
+        display: flex;
+        align-items: flex-end;
+    }
+
     .works__contents {
         margin-bottom: 0px;
     }
 
-    .works__salon {
-        padding-top: 160px;
+    .works__portfolio,
+    .works__humberger,
+    .works__piza {
+        padding-top: 50px;
     }
-    .works__designcafe {
-        padding-top: 160px;
-    }
-    .works__workers {
-        padding-top: 160px;
-    }
+
     .about__contents {
         padding-top: 128px;
     }
@@ -1456,5 +1530,37 @@ textarea.contact___form-input {
 
     .slide-in_inner {
         font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    .about__button {
+        width: 200px;
+        height: 200px;
+        margin: 0 auto;
+    }
+    .about__btnlink {
+        width: 200px;
+        height: 200px;
+        font-size: 20px;
+    }
+    .about__btnlink::before {
+        width: 200px;
+        height: 200px;
+        top: -10px;
+        left: -10px;
+    }
+    .about__btnlink::after {
+        width: 90px;
+        height: 12px;
+    }
+
+    .works__block {
+        align-self: inherit;
+    }
+
+    .works__trrrrip,
+    .works__dental {
+        align-items: inherit;
     }
 }
