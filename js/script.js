@@ -160,6 +160,13 @@
       ".works__portfolio, .works__salon, .works__designcafe, .works__workers, .works__humberger, .works__trrrrip, .works__flower, .works__piza, .works__dental, .about__heading, .about__contents, .about__area,.contact",
       { delay: 300, origin: "bottom", distance: "40px" }
     );
+
+    ScrollReveal().reveal(
+      " .works__dental",
+      { delay: 300, origin: "bottom", distance: "40px" }
+    );
+
+
   
     //about.html
   
