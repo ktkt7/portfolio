@@ -289,13 +289,7 @@ header {
     margin: 0 auto;
     padding-right: 32px;
     padding-left: 32px;
-}
-
-.works__portfolio {
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-around;
-    padding-top: 50px;
+    max-width: 1080px;
 }
 
 .works__block {
@@ -371,6 +365,13 @@ header {
     right: 0;
 }
 
+.works__portfolio {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+}
+
 .works__salon {
     margin: 0 auto;
     display: flex;
@@ -433,6 +434,8 @@ header {
 
 .works__trrrrip .works__block,
 .works__flower .works__block,
+.works__towel .works__block,
+.works__jobchange .works__block,
 .works__piza .works__block,
 .works__dental .works__block {
     margin-bottom: -20px;
@@ -440,6 +443,25 @@ header {
 
 .works__trrrrip img {
     width: 100%;
+}
+
+.works__towel {
+    margin: 0 auto;
+    display: flex;
+    padding-top: 100px;
+    gap: 50px;
+    max-width: 1080px;
+    margin-bottom: 20px;
+}
+
+.works__jobchange {
+    margin: 0 auto;
+    display: flex;
+    padding-top: 100px;
+    margin-bottom: 20px;
+    justify-content: flex-end;
+    gap: 50px;
+    max-width: 1080px;
 }
 
 .works__flower {
@@ -1089,12 +1111,27 @@ textarea.contact___form-input {
         padding-top: 98px;
         align-items: flex-end;
     }
+
+    .works__towel {
+        flex-direction: column;
+        row-gap: 40px;
+        align-items: flex-start;
+    }
+
+    .works__jobchange {
+        flex-direction: column-reverse;
+        row-gap: 40px;
+        margin: 0 auto;
+        padding-top: 98px;
+        align-items: flex-end;
+    }
     .works__flower {
         flex-direction: column;
         row-gap: 40px;
         align-items: flex-start;
     }
-    .works__flower .works__block {
+    .works__flower .works__block,
+    .works__towel .works__block {
         align-self: flex-start;
     }
 
