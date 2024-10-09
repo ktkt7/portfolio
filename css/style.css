@@ -868,16 +868,17 @@ textarea.contact___form-input {
     padding-bottom: 20px;
 }
 
-/* .footer__icon {
+.footer__icon {
     margin: 0 auto;
     display: flex;
     justify-content: space-around;
     padding-bottom: 100px;
+    width: 100%;
 }
 
 .footer__icon img {
     width: 29px;
-} */
+}
 
 .footer__copyright {
     font-size: 12px;
