@@ -399,10 +399,10 @@
     .about__footer__text p {
         font-size: 14px;
     }
-    .about__footer__contents {
+    /* .about__footer__contents {
         padding-top: 98px;
         padding-bottom: 128px;
-    }
+    } */
 
     .works__main__container {
         padding-left: 3%;
