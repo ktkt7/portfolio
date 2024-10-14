@@ -1001,13 +1001,13 @@ a.footer__icon img {
     .works__imgarea p {
         text-align: left;
     }
-    .works__img-first img {
+    /* .works__img-first img {
         width: 90%;
     }
 
     .works__img-second {
         width: 90%;
-    }
+    } */
 
     .about__title {
         margin-top: -15px;
@@ -1294,15 +1294,6 @@ a.footer__icon img {
         width: 70%;
     }
 
-    .works__flower img,
-    .works__trrrrip img {
-        width: 80%;
-    }
-
-    .works__trrrrip img {
-        margin-left: 85px;
-    }
-
     .contact__title {
         margin-top: -10px;
     }
@@ -1416,12 +1407,6 @@ a.footer__icon img {
     }
 }
 
-@media screen and (max-width: 490px) {
-    .works__trrrrip img {
-        margin-left: 70px;
-    }
-}
-
 @media screen and (max-width: 450px) {
     .contact__form {
         max-width: 370px;
@@ -1429,10 +1414,6 @@ a.footer__icon img {
 
     .contact___form-submit button::after {
         left: 130px;
-    }
-
-    .works__trrrrip img {
-        margin-left: 50px;
     }
 
     .about__button {
@@ -1453,10 +1434,6 @@ a.footer__icon img {
         width: 180px;
         height: 12px;
     }
-
-    .works__trrrrip img {
-        margin-left: 70px;
-    }
 }
 
 /* 375 */
@@ -1467,6 +1444,10 @@ a.footer__icon img {
     }
 
     /* mv */
+
+    .mv__contents-vl {
+        height: 150px;
+    }
 
     .mv__inner {
         padding-top: 160px;
@@ -1490,16 +1471,6 @@ a.footer__icon img {
 
     .works__contents-hr {
         margin-top: 128px;
-    }
-
-    .works__trrrrip img {
-        width: 90%;
-        margin-left: 30px;
-    }
-
-    .works__trrrrip img {
-        display: flex;
-        align-items: flex-end;
     }
 
     .works__contents {
@@ -1582,6 +1553,10 @@ a.footer__icon img {
 }
 
 @media screen and (max-width: 300px) {
+    .mv__contents-vl {
+        height: 100px;
+    }
+
     .about__button {
         width: 200px;
         height: 200px;
@@ -1608,7 +1583,8 @@ a.footer__icon img {
     }
 
     .works__trrrrip,
-    .works__dental {
+    .works__dental,
+    .works__jobchange {
         align-items: inherit;
     }
 }
