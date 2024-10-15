@@ -395,6 +395,13 @@ header {
     flex-direction: row-reverse;
 }
 
+.works__jewelry {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 208px;
+}
+
 .works__humberger {
     margin: 0 auto;
     max-width: 1080px;
@@ -956,7 +963,8 @@ a.footer__icon img {
     .works__portfolio,
     .works__designcafe,
     .works__salon,
-    .works__workers {
+    .works__workers,
+    .works__jewelry {
         flex-direction: column-reverse;
         row-gap: 40px;
     }
