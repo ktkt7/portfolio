@@ -313,8 +313,6 @@ header {
 .works__button {
     width: 180px;
     height: 56px;
-    /* width: 70%;
-    height: 30%; */
     border-bottom: 1px solid #161616;
     border-right: 1px solid#161616;
     display: flex;
