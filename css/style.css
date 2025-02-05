@@ -2,6 +2,11 @@
 
 body {
     background-color: #e2e2e7;
+    /* background-color: #161616; */
+    /* background-image: url(../images/jpg/back.jpg); */
+    background-image: url(../images/jpg/back_img.jpg);
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 /* loading */
@@ -398,6 +403,14 @@ header {
     display: flex;
     justify-content: space-around;
     padding-top: 208px;
+}
+
+.works__tea {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 208px;
+    flex-direction: row-reverse;
 }
 
 .works__humberger {
@@ -973,13 +986,15 @@ a.footer__icon img {
     .works__designcafe,
     .works__salon,
     .works__workers,
-    .works__jewelry {
+    .works__jewelry,
+    .works__tea {
         flex-direction: column-reverse;
         row-gap: 40px;
     }
 
     .works__salon .works__block,
-    .works__workers .works__block {
+    .works__workers .works__block,
+    .works__tea .works__block {
         align-self: flex-start;
     }
 
@@ -1129,7 +1144,8 @@ a.footer__icon img {
     .works__designcafe,
     .works__salon,
     .works__workers,
-    .works__jewelry {
+    .works__jewelry,
+    .works__tea {
         padding-top: 100px;
     }
 

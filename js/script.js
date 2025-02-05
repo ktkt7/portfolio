@@ -158,7 +158,7 @@
       });
 
     ScrollReveal().reveal(
-      ".works__portfolio, .works__salon, .works__designcafe, .works__workers, .works__jewelry, .works__humberger, .works__trrrrip, .works__flower, .works__towel, .works__jobchange, .works__maic, .works__piza, .about__heading, .about__contents, .about__area,.contact",
+      ".works__portfolio, .works__salon, .works__designcafe, .works__workers, .works__jewelry, .works__tea, .works__humberger, .works__trrrrip, .works__flower, .works__towel, .works__jobchange, .works__maic, .works__piza, .about__heading, .about__contents, .about__area,.contact",
       { delay: 300, origin: "bottom", distance: "40px" }
     );
 
