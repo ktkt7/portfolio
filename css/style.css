@@ -2,8 +2,6 @@
 
 body {
     background-color: #e2e2e7;
-    /* background-color: #161616; */
-    /* background-image: url(../images/jpg/back.jpg); */
     background-image: url(../images/jpg/back_img.jpg);
     background-attachment: fixed;
     background-size: cover;
