@@ -441,7 +441,7 @@ header {
 .works__trrrrip {
     margin: 0 auto;
     display: flex;
-    padding-top: 10px;
+    padding-top: 100px;
     margin-bottom: 20px;
     justify-content: flex-end;
     gap: 50px;
@@ -492,6 +492,15 @@ header {
 }
 
 .works__flower {
+    margin: 0 auto;
+    display: flex;
+    padding-top: 100px;
+    gap: 50px;
+    max-width: 1080px;
+    margin-bottom: 20px;
+}
+
+.works__coffee {
     margin: 0 auto;
     display: flex;
     padding-top: 100px;
