@@ -98,7 +98,7 @@
           elements[index].css("opacity", "1");
           elements[index].css("transform", "translateY(0)");
           index++;
-          setTimeout(showElement, 500); // 各要素の表示間隔を調整
+          setTimeout(showElement, 400); // 各要素の表示間隔を調整
         }
       }
   
@@ -158,7 +158,7 @@
       });
 
     ScrollReveal().reveal(
-      ".works__portfolio, .works__salon, .works__designcafe, .works__workers, .works__jewelry, .works__tea, .works__humberger, .works__trrrrip, .works__flower, .works__towel, .works__jobchange, .works__coffee, .works__maic, .works__piza, .about__heading, .about__contents, .about__area,.contact",
+      ".works__portfolio, .works__salon, .works__designcafe, .works__workers, .works__jewelry, .works__tea, .works__humberger, .works__trrrrip, .works__flower, .works__towel, .works__jobchange, .works__coffee, .works__maic, .works__realestate, .works__piza, .about__heading, .about__contents, .about__area,.contact",
       { delay: 300, origin: "bottom", distance: "40px" }
     );
 
