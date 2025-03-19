@@ -1,0 +1,613 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kazuhiro_Portfolio</title>
+</head>
+
+<link rel="stylesheet" href="./css/reset.css">
+<link rel="stylesheet" href="./css/style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link
+    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Noto+Sans+JP:wght@100..900&family=Noto+Serif+JP:wght@200;300;400;500;600;700;900&display=swap"
+    rel="stylesheet">
+<link rel="stylesheet" href="https://use.typekit.net/gcr3ltu.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Tilt+Prism&family=Rubik+Line&display=swap" rel="stylesheet">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="https://unpkg.com/scrollreveal"></script>
+<script src="./js/script.js"></script>
+
+<script type="text/javascript">
+    let submitted = false;
+</script>
+<iframe name="hidden_iframe" id="hidden_iframe" style="display: none"
+    onload="if(submitted){window.location='./thanks.html';}"></iframe>
+
+
+<body>
+
+    <!-- loading -->
+    <div class="loading" id="page-loader">
+        <div class="loading-bg">
+            <div class="load-img">
+                <img src="./images/svg/logo.svg" alt="logo" />
+            </div>
+            <p id="welcome-message"></p>
+        </div>
+    </div>
+
+    <!-- Header -->
+    <header id="Header">
+        <div class="header-wrapper">
+            <div class="header-logo">
+                <a href="#Header">
+                    <img src="./images/svg/logo.svg" alt="logo">
+
+                </a>
+            </div>
+            <nav class="header-nav">
+                <ul>
+                    <li><a class="header-navlink" href="#Header">HOME</a></li>
+                    <li><a class="header-navlink" href="#Works">WORKS</a></li>
+                    <li><a class="header-navlink" href="#About">ABOUT</a></li>
+                    <li><a class="header-navlink" href="#Contact">CONTACT</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <!-- sm ヘッダー -->
+
+
+
+
+        <div class="menubtn">
+            <span></span>
+            <span>MENU</span>
+            <span></span>
+        </div>
+
+
+
+
+        <nav class="header-navsm">
+            <div class="menu-wrapper">
+                <div class=""></div>
+                <ul>
+                    <li><a class="header-navlink" href="#Header">HOME</a></li>
+                    <li><a class="header-navlink" href="#Works">WORKS</a></li>
+                    <li><a class="header-navlink" href="#About">ABOUT</a></li>
+                    <li><a class="header-navlink" href="#Contact">CONTACT</a></li>
+                </ul>
+
+
+            </div>
+
+        </nav>
+
+
+
+    </header>
+
+
+    <!-- main -->
+
+    <main class="main">
+        <div class="container">
+
+            <section class="mv" id="Mv">
+                <div class="mv-wrapper">
+                    <div class="mv-block">
+                        <p class="mv-sb-text">DESINER</p>
+                        <h1 class="mv-imgtext">
+                            <img src="./images/png/KAZUHIRO.png" alt="kazuhiro">
+
+                        </h1>
+                        <p class="mv-sb-text">PORTFOLIO</p>
+                        <p class="mv-sb-text">SITE</p>
+
+                    </div>
+                    <!-- <div class="mv-vl">
+                        <div class="vl"></div>
+                    </div> -->
+
+                    <!-- <div class="mv-bottom">
+                        <div class="bottom"></div>
+                    </div> -->
+
+
+
+                </div>
+
+                <div class="mv-vl">
+                    <span class="vl"> </span>
+                </div>
+
+
+            </section>
+
+            <!-- <div class="mv-vl">
+                <p class="vl"></p>
+            </div> -->
+
+
+            <section class="mv-bottom">
+                <div class="bottom"></div>
+            </section>
+
+            <!-- <div class="mv-bottom">
+                <div class="bottom"></div>
+            </div> -->
+
+
+            <!-- works -->
+
+            <section class="works" id="Works">
+
+                <!-- タイトル -->
+                <div class="heading">
+                    <div class="heading-title">
+                        <h2 class="title-main">WORKS</h2>
+                        <p class="title-sb">制作物</p>
+                    </div>
+
+                </div>
+
+                <!-- works -->
+
+                <div class="works-wrapper">
+
+
+                    <!-- 制作物 -->
+                    <div class="works-block">
+
+                        <div class="works-card">
+                            <a href="./works/works_portfolio.html" class="works-link">
+                                <div class="works-img">
+                                    <img src="./images/jpg/portfolio.jpg" alt="portfolio">
+                                </div>
+                                <div class="works-text">
+                                    <h4>KAZUHIRO Portfolio</h4>
+                                    <p>#Web design</p>
+                                    <p>#Cording</p>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="works-card">
+                            <a href="./works/works_workers.html" class="works-link">
+                                <div class="works-img">
+                                    <img src="./images/jpg/workers.jpg" alt="workers">
+                                </div>
+                                <div class="works-text">
+                                    <h4>WORKERS</h4>
+                                    <p>#Web design </p>
+
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="works-card">
+                            <a href="./works/works_lifehairdesign.html" class="works-link">
+                                <div class="works-img">
+                                    <img src="./images/jpg/salon.jpg" alt="salon">
+                                </div>
+                                <div class="works-text">
+                                    <h4>LIFE hair design</h4>
+                                    <p>#Web design
+                                        <br>
+                                    </p>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="works-card">
+                            <a href="./works/works_mitsufuneoriginalquality.html" class="works-link">
+                                <div class="works-img">
+                                    <img src="./images/jpg/jewerly.jpg" alt="MITSUFUNE ORIGINAL QUALITY">
+                                </div>
+                                <div class="works-text">
+                                    <h4>MITSUFUNE ORIGINAL QUALITY</h4>
+                                    <p>#Web design
+                                        <br>
+                                    </p>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="works-card">
+                            <a href="./works/works_teaspecialfeature.html" class="works-link">
+                                <div class="works-img">
+                                    <img src="./images/jpg/tea.jpg" alt="TEA SPECIAL FEATURE">
+                                </div>
+                                <div class="works-text">
+                                    <h4>TEA SPECIAL FEATURE</h4>
+                                    <p>#Web design
+                                        <br>#Cording
+                                    </p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="works-card">
+                            <a href="./works/works_designcafe.html" class="works-link">
+                                <div class="works-img">
+                                    <img src="./images/jpg/cafe.jpg" alt="DESIGN CAFE">
+                                </div>
+                                <div class="works-text">
+                                    <h4>DESIGN CAFE</h4>
+                                    <p>#Cording
+                                        <br>
+                                    </p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="works-card">
+                            <a href="./works/works_humberger.html" class="works-link">
+                                <div class="works-img">
+                                    <img src="./images/jpg/humberger1.jpg" alt="humberger">
+                                </div>
+                                <div class="works-text">
+                                    <h4>NEW HUMBERGER 高級ver</h4>
+                                    <p>#Banner design
+                                        <br>
+                                    </p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="works-card">
+                            <a href="./works/works_humberger.html" class="works-link">
+                                <div class="works-img">
+                                    <img src="./images/jpg/humberger2.jpg" alt="humberger">
+                                </div>
+                                <div class="works-text">
+                                    <h4>NEW HUMBERGER Popver</h4>
+                                    <p>#Banner design
+                                        <br>
+                                    </p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="works-card">
+                            <a href="./works/works_trrrrip.html" class="works-link">
+                                <div class="works-img">
+                                    <img src="./images/jpg/trrrrip.jpg" alt="TRRRRIP">
+                                </div>
+                                <div class="works-text">
+                                    <h4>TRRRRIP.</h4>
+                                    <p>#Banner design
+                                        <br>
+                                    </p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="works-card">
+                            <a href="./works/works_flower.html" class="works-link">
+                                <div class="works-img">
+                                    <img src="./images/jpg/flower.jpg" alt="FLOWER DELIVERY">
+                                </div>
+                                <div class="works-text">
+                                    <h4>FLOWER DELIVERY</h4>
+                                    <p>#Banner design
+                                        <br>
+                                    </p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="works-card">
+                            <a href="./works/works_towel.html" class="works-link">
+                                <div class="works-img">
+                                    <img src="./images/jpg/towel.jpg" alt="TOWEL">
+                                </div>
+                                <div class="works-text">
+                                    <h4>TOWEL</h4>
+                                    <p>#Banner design
+                                        <br>
+                                    </p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="works-card">
+                            <a href="./works/works_jobchange.html" class="works-link">
+                                <div class="works-img">
+                                    <img src="./images/jpg/jobchange.jpg" alt="JOB CHANGE">
+                                </div>
+                                <div class="works-text">
+                                    <h4>JOB CHANGE</h4>
+                                    <p>#Banner design
+                                        <br>
+                                    </p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="works-card">
+                            <a href="./works/works_coffee.html" class="works-link">
+                                <div class="works-img">
+                                    <img src="./images/jpg/coffee.jpg" alt="COFFEE DELIVERY">
+                                </div>
+                                <div class="works-text">
+                                    <h4>COFFEE DELIVERY</h4>
+                                    <p>#Banner design
+                                        <br>
+                                    </p>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="works-card">
+                            <a href="./works/works_maic.html" class="works-link">
+                                <div class="works-img">
+                                    <img src="./images/jpg/maic.jpg" alt=">MAIC Image Branding International">
+                                </div>
+                                <div class="works-text">
+                                    <h4>MAIC Image Branding International</h4>
+                                    <p>#FV design
+                                        <br>
+                                    </p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="works-card">
+                            <a href="./works/works_realestate.html" class="works-link">
+                                <div class="works-img">
+                                    <img src="./images/jpg/realestate.jpg" alt="REAL ESTATE">
+                                </div>
+                                <div class="works-text">
+                                    <h4>REAL ESTATE</h4>
+                                    <p>#Banner design
+                                        <br>
+                                    </p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="works-card">
+                            <a href="./works/works_nightworks.html" class="works-link">
+                                <div class="works-img">
+                                    <img src="./images/jpg/nightworks.jpg" alt="NIGHTWORKS">
+                                </div>
+                                <div class="works-text">
+                                    <h4> NightWorks</h4>
+                                    <p>#Banner design
+                                        <br>
+                                    </p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="works-card">
+                            <a href="./works/works_dental.html" class="works-link">
+                                <div class="works-img">
+                                    <img src="./images/jpg/dental.jpg" alt="DENTAL CLINIC">
+                                </div>
+                                <div class="works-text">
+                                    <h4>DENTAL CLINIC</h4>
+                                    <p>#Flyer design
+                                        <br>
+                                    </p>
+                                </div>
+                            </a>
+                        </div>
+
+
+                    </div>
+
+                    <!-- もっと見る -->
+                    <div class="buttun-block">
+
+                        <button class="buttun">
+                            Read more
+                        </button>
+
+                    </div>
+
+                </div>
+
+
+
+
+
+            </section>
+
+            <!-- about -->
+
+            <section class="about" id="About">
+
+                <!-- タイトル -->
+                <div class="heading">
+                    <div class="heading-title">
+                        <h2 class="title-main">ABOUT</h2>
+                        <p class="title-sb">私について</p>
+                    </div>
+
+                </div>
+
+
+
+                <!-- about main -->
+                <div class="about-main">
+                    <div class="about-wrapper">
+                        <div class="about-firstblock">
+                            <div class="about-img">
+
+                                <div class="about-img-block">
+
+                                    <picture>
+
+                                        <source media="(max-width: 768px)" srcset="./images/jpg/about-imgsp.jpg">
+                                        <img src="./images/jpg/about-img.jpg" alt="about">
+                                    </picture>
+
+                                </div>
+
+                                <div class="about-text">
+                                    <p class="about-text-en">
+                                        Design is art optimized to<br class="sp-br"> achieve a goal
+                                    </p>
+                                    <p class="about-text-ja">
+                                        デザインとは、目的達成のために<br class="sp-br">最適化されたアートである
+                                    </p>
+                                    <p class="about-subtext">
+                                        0から1を生み出す
+
+                                    </p>
+                                    <p class="about-subtext">
+                                        お客様の想いをカタチに
+
+                                    </p>
+
+                                </div>
+
+
+                            </div>
+
+                        </div>
+
+                        <div class="about-secondblock">
+                            <div class="about-inner">
+
+                                <div class="about-linkarea">
+                                    <a class="about-link" href="./about.html">
+                                        <div class="loop">
+                                            <p class="loop-text">
+                                                Click here for details　Click here for details　Click here for details
+                                                　Click here for details　Click here for details　Click here for
+                                                details　Click here for details　Click here for details
+                                            </p>
+                                            <p class="loop-text">
+                                                Click here for details　Click here for details　Click here for details
+                                                　Click here for details　Click here for details　Click here for
+                                                details　Click here for details　Click here for details
+                                            </p>
+
+                                        </div>
+
+
+
+
+
+
+                                    </a>
+
+                                </div>
+
+                            </div>
+
+
+
+
+                        </div>
+
+
+
+                    </div>
+
+
+
+                </div>
+            </section>
+
+
+            <!-- contact -->
+
+            <section class="contact" id="Contact">
+
+                <!-- タイトル -->
+                <div class="heading">
+                    <div class="heading-title">
+                        <h2 class="title-main">CONTACT</h2>
+                        <p class="title-sb">お問い合わせ</p>
+                    </div>
+
+                </div>
+
+                <!-- contact -->
+
+                <div class="contact-wrapper">
+                    <div class="contact-text">
+                        <p class="contact-text-en">If you would like to make a request or consult with us, <br>please
+                            feel
+                            free
+                            to contact us using the form below</p>
+                        <p class="contact-text-ja">ご依頼やご相談をご希望の方は、<br>下記フォームよりお気軽に<br>お問い合わせください。</p>
+                    </div>
+
+
+                    <!-- フォーム -->
+
+
+                    <form
+                        action="https://docs.google.com/forms/u/0/d/e/1FAIpQLScb-_KR5wuBt3kqXtT-XYN5hUd0vmIxdbsY1ZkBkF8tnL1p-g/formResponse"
+                        method="post" class="contact-form" target="hidden_iframe" onsubmit="submitted=true;">
+
+                        <!--name  -->
+                        <div class="contact-form-item">
+                            <label class="contact-form-label" for="field-name">Full Name<span
+                                    class="contact-form-required">*</span>
+
+                            </label>
+                            <input name="entry.1712752344" class="contact-form-input" id="field-name"
+                                placeholder="Your Name" type="text" required="required" />
+                        </div>
+
+                        <!-- mail -->
+                        <div class="contact-form-item">
+                            <label class="contact-form-label" for="field-mail">Email<span
+                                    class="contact-form-required">*</span></label>
+                            <input name="entry.169922921" class="contact-form-input" id="field-mail"
+                                placeholder="Email Adress" type="email" required="required" />
+                        </div>
+
+
+                        <!-- message -->
+                        <div class="contact-form-item">
+                            <label class="contact-form-label" for="field-message">Message <span
+                                    class="contact-form-required">*</span>
+                            </label>
+                            <textarea name="entry.397918164" class="contact-form-input" id="field-message" type="text"
+                                placeholder="Put Message here" required="required"></textarea>
+                        </div>
+
+                        <!-- send -->
+                        <div class="contact-form-submit">
+                            <button type="submit">Send</button>
+                        </div>
+
+                    </form>
+
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <!-- footer -->
+
+    <footer class="footer">
+        <div class="footer-wrapper">
+            <div class="nav-block">
+                <nav class="fotter-nav">
+
+                    <ul>
+                        <li><a class="fotter-navlink" href="#head">HOME</a></li>
+                        <li><a class="fotter-navlink" href="#Works">WORKS</a></li>
+                        <li><a class="fotter-navlinkk" href="#About">ABOUT</a></li>
+                        <li><a class="fotter-navlink" href="#Contact">CONTACT</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="fotter-bottom">
+
+                <a class="footer-bottomlink" href="https://www.instagram.com/__fafrcaso/">
+                    Instagram
+                </a>
+                <p class="footer-copyright">
+                    ©︎ Kazuhiro Takada
+                </p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
