@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kazuhiro_Portfolio</title>
+</head>
+
+<link rel="stylesheet" href="./css/reset.css">
+<link rel="stylesheet" href="./css/style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link
+    href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&family=Noto+Serif+JP:wght@200;300;400;500;600;700;900&display=swap"
+    rel="stylesheet">
+<link rel="stylesheet" href="https://use.typekit.net/gcr3ltu.css">
+<link rel="stylesheet" href="https://use.typekit.net/erk4pkn.css">
+
+
+<link href="https://fonts.googleapis.com/css2?family=Tilt+Prism&family=Rubik+Line&display=swap" rel="stylesheet">
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="https://unpkg.com/scrollreveal"></script>
+<script src="./js/script.js"></script>
+
+<script type="text/javascript">
+    let submitted = false;
+</script>
+<iframe name="hidden_iframe" id="hidden_iframe" style="display: none"
+    onload="if(submitted){window.location='./thanks.html';}"></iframe>
+
+
+<body>
+
+    <!-- loading -->
+    <div class="loading" id="page-loader">
+        <div class="loading-bg">
+            <p id="welcome-message"></p>
+        </div>
+    </div>
+
+    <!-- Header -->
+
+    <header id="Header" class="header">
+        <div class="header-container">
+            <div class="header-logo-group">
+
+                <div>
+                    <p class="logo-portfolio">
+                        <a href="#Main">Portfolio</a>
+                    </p>
+                </div>
+                <div>
+                    <p class="logo-name">
+                        <a href="#Main">KAZUHIRO TAKADA</a>
+                    </p>
+                </div>
+            </div>
+            <nav class="header-nav">
+                <ul>
+                    <li><a class="header-navlink" href="#Works">WORKS</a></li>
+                    <li><a class="header-navlink" href="./about.html">ABOUT</a></li>
+                    <li><a class="header-navlink" href="#Contact">CONTACT</a></li>
+                </ul>
+            </nav>
+
+        </div>
+
+        <!-- sm ヘッダー -->
+
+        <div class="menubtn">
+            <span></span>
+            <span>MENU</span>
+            <span></span>
+        </div>
+
+        <nav class="header-navsm">
+
+            <ul>
+                <li><a class="header-navlink" href="#Works">WORKS</a></li>
+                <li><a class="header-navlink" href="./about.html">ABOUT</a></li>
+                <li><a class="header-navlink" href="#Contact">CONTACT</a></li>
+            </ul>
+
+        </nav>
+
+
+
+
+
+    </header>
+
+
+    <!-- main -->
+
+    <main class="main" id="Main">
+
+        <!-- works -->
+        <section class="works" id="Works">
+            <!-- タイトル -->
+            <div class="heading">
+                <h2 class="heading-title">
+                    WORKS
+                </h2>
+                <div class="works-filter">
+                    <button data-filter="ALL" class="active" onclick="filterWorks('ALL')">ALL</button>
+                    <button data-filter="GRAPHIC" onclick="filterWorks('GRAPHIC')">GRAPHIC</button>
+                    <button data-filter="WEB" onclick="filterWorks('WEB')">WEB</button>
+                    <button data-filter="OTHERS" onclick="filterWorks('OTHERS')">OTHERS</button>
+                </div>
+
+            </div>
+
+            <div class="works-grid">
+                <!-- GRAPHIC Works -->
+                <div class="work-item" data-category="GRAPHIC">
+                    <a href="./works/fujiiq.html">
+                        <div class="work-image-container">
+                            <img class="work-image" src="./images/jpg/fujiiq.jpg" alt="FIJIIQ">
+                        </div>
+                        <div class="work-info">
+                            <p class="work-category">GRAPHIC</p>
+                            <p class="work-title">FujiiQ</p>
+
+                        </div>
+                    </a>
+
+                </div>
+
+                <div class="work-item" data-category="GRAPHIC">
+                    <a href=" ./works/driptherapyresearchsociety.html">
+                        <div class="work-image-container">
+                            <img class="work-image" src="./images/jpg/driptherapyresearchsociety.jpg"
+                                alt="Drip Therapy Research Society">
+                        </div>
+                        <div class="work-info">
+                            <p class="work-category">GRAPHIC</p>
+                            <p class="work-title">Drip Therapy Research Society</p>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="work-item" data-category="GRAPHIC">
+                    <a href="./works/judicialscriveneroffice.html">
+                        <div class="work-image-container">
+                            <img class="work-image" src="./images/jpg/judicialscriveneroffice.jpg"
+                                alt="Judicial Scrivener Office">
+                        </div>
+                        <div class="work-info">
+                            <p class="work-category">GRAPHIC</p>
+                            <p class="work-title">Judicial Scrivener Office</p>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="work-item" data-category="GRAPHIC">
+                    <a href="./works/masuidentalclinic.html">
+                        <div class="work-image-container">
+                            <img class="work-image" src="./images/jpg/masuidentalclinic.jpg" alt="Masui Dental Clinic">
+                        </div>
+                        <div class="work-info">
+                            <p class="work-category">GRAPHIC</p>
+                            <p class="work-title">Masui Dental Clinic</p>
+                        </div>
+                    </a>
+                </div>
+
+                <!-- WEB Works -->
+                <div class="work-item" data-category="WEB">
+                    <a href=" ./works/workers.html">
+                        <div class="work-image-container">
+                            <img class="work-image" src="./images/jpg/workers.jpg" alt="WORKERS">
+                        </div>
+                        <div class="work-info">
+                            <p class="work-category">WEB</p>
+                            <p class="work-title">WORKERS</p>
+                        </div>
+                    </a>
+
+                </div>
+
+                <div class="work-item" data-category="WEB">
+                    <a href="./works/lifehairdesign.html">
+                        <div class="work-image-container">
+                            <img class="work-image" src="./images/jpg/salon.jpg" alt="LIFE HAIR DESIGN">
+                        </div>
+                        <div class="work-info">
+                            <p class="work-category">WEB</p>
+                            <p class="work-title">LIFE hair design</p>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="work-item" data-category="WEB">
+                    <a href="./works/mitsufuneoriginalquality.html">
+                        <div class="work-image-container">
+                            <img class="work-image" src="./images/jpg/jewerly.jpg" alt="MITSUFUNE ORIGINAL QUALITY">
+                        </div>
+                        <div class="work-info">
+                            <p class="work-category">WEB</p>
+                            <p class="work-title">MITSUFUNE ORIGINAL QUALITY</p>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="work-item" data-category="WEB">
+                    <a href="./works/teaspecialfeature.html">
+                        <div class="work-image-container">
+                            <img class="work-image" src="./images/jpg/tea.jpg" alt="TEA SPECIAL FEATURE">
+                        </div>
+                        <div class="work-info">
+                            <p class="work-category">WEB</p>
+                            <p class="work-title">TEA SPECIAL FEATURE</p>
+                        </div>
+                    </a>
+                </div>
+
+
+                <!-- OTHERS Works -->
+
+                <div class="work-item" data-category="OTHERS">
+                    <a href="./works/maic.html">
+                        <div class="work-image-container">
+                            <img class="work-image" src="./images/jpg/maic.jpg" alt="MAIC Image Branding International">
+                        </div>
+                        <div class="work-info">
+                            <p class="work-category">OTHERS</p>
+                            <p class="work-title">MAIC Image Branding International</p>
+                        </div>
+                    </a>
+                </div>
+
+
+                <div class="work-item" data-category="OTHERS">
+                    <a href="./works/humberger.html">
+                        <div class="work-image-container">
+                            <img class="work-image" src="./images/jpg/hamburger-premium.jpg"
+                                alt="NEW HAMBURGER_Premiumver">
+                        </div>
+                        <div class="work-info">
+                            <p class="work-category">OTHERS</p>
+                            <p class="work-title">NEW HAMBURGER_Premiumver</p>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="work-item" data-category="OTHERS">
+                    <a href="./works/humberger.html">
+                        <div class="work-image-container">
+                            <img class="work-image" src="./images/jpg/hamburger-pop.jpg" alt="NEW HAMBURGER_Popver">
+                        </div>
+                        <div class="work-info">
+                            <p class="work-category">OTHERS</p>
+                            <p class="work-title">NEW HAMBURGER_Popver</p>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="work-item" data-category="OTHERS">
+                    <a href="./works/trrrrip.html">
+                        <div class="work-image-container">
+                            <img class="work-image" src="./images/jpg/trrrrip.jpg" alt="TRRRRIP.">
+                        </div>
+                        <div class="work-info">
+                            <p class="work-category">OTHERS</p>
+                            <p class="work-title">TRRRRIP.</p>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="work-item" data-category="OTHERS">
+                    <a href="./works/flowerdelivery.html">
+                        <div class="work-image-container">
+                            <img class="work-image" src="./images/jpg/flower.jpg" alt="FLOWER DELIVERY">
+                        </div>
+                        <div class="work-info">
+                            <p class="work-category">OTHERS</p>
+                            <p class="work-title">Flower Delivery</p>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="work-item" data-category="OTHERS">
+                    <a href="./works/realestate.html">
+                        <div class="work-image-container">
+                            <img class="work-image" src="./images/jpg/realestate.jpg" alt="REAL ESTATE">
+                        </div>
+                        <div class="work-info">
+                            <p class="work-category">OTHERS</p>
+                            <p class="work-title">Real Estate</p>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="work-item" data-category="OTHERS">
+                    <a href="./works/nightworks.html">
+                        <div class="work-image-container">
+                            <img class="work-image" src="./images/jpg/nightworks.jpg" alt="NIGHT WORKS">
+                        </div>
+                        <div class="work-info">
+                            <p class="work-category">OTHERS</p>
+                            <p class="work-title">Night Works</p>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="work-item" data-category="OTHERS">
+                    <a href="./works/coffeedelivery.html">
+                        <div class="work-image-container">
+                            <img class="work-image" src="./images/jpg/coffee.jpg" alt="COFFEE DELIVERY">
+                        </div>
+                        <div class="work-info">
+                            <p class="work-category">OTHERS</p>
+                            <p class="work-title">KURU coffee</p>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="work-item" data-category="OTHERS">
+                    <a href="./works/towel.html">
+                        <div class="work-image-container">
+                            <img class="work-image" src="./images/jpg/towel.jpg" alt="TOWEL">
+                        </div>
+                        <div class="work-info">
+                            <p class="work-category">OTHERS</p>
+                            <p class="work-title">TOWEL</p>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="work-item" data-category="OTHERS">
+                    <a href="./works/tripull.html">
+                        <div class="work-image-container">
+                            <img class="work-image" src="./images/jpg/baminoodle.jpg" alt="TRIPULL">
+                        </div>
+                        <div class="work-info">
+                            <p class="work-category">OTHERS</p>
+                            <p class="work-title">TRIPULL</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+
+        </section>
+
+
+        <!-- contact -->
+
+        <section class="contact" id="Contact">
+
+            <div class="contact-container">
+                <!-- タイトル -->
+                <div class="heading">
+                    <h2 class="heading-title">
+                        CONTACT
+                    </h2>
+                    <div class="contact-text">
+                        <p>お仕事のご依頼やご相談をご希望の方は、フォームよりお気軽にお問い合わせください。</p>
+                    </div>
+
+                </div>
+
+                <!-- contact -->
+
+                <div class="contact-wrapper">
+                    <!-- フォーム -->
+
+
+                    <form
+                        action="https://docs.google.com/forms/u/0/d/e/1FAIpQLScb-_KR5wuBt3kqXtT-XYN5hUd0vmIxdbsY1ZkBkF8tnL1p-g/formResponse"
+                        method="post" class="contact-form" target="hidden_iframe" onsubmit="submitted=true;">
+
+                        <!--name  -->
+                        <div class="contact-form-item">
+                            <label class="contact-form-label" for="field-name">Full Name<span
+                                    class="contact-form-required">*</span>
+
+                            </label>
+                            <input name="entry.1712752344" class="contact-form-input" id="field-name"
+                                placeholder="Your Name" type="text" required="required" />
+                        </div>
+
+                        <!-- mail -->
+                        <div class="contact-form-item">
+                            <label class="contact-form-label" for="field-mail">Email<span
+                                    class="contact-form-required">*</span></label>
+                            <input name="entry.169922921" class="contact-form-input" id="field-mail"
+                                placeholder="Email " type="email" required="required" />
+                        </div>
+
+
+                        <!-- message -->
+                        <div class="contact-form-item">
+                            <label class="contact-form-label" for="field-message">Message <span
+                                    class="contact-form-required">*</span>
+                            </label>
+                            <textarea name="entry.397918164" class="contact-form-input" id="field-message" type="text"
+                                placeholder="Put Message here" required="required"></textarea>
+                        </div>
+
+                        <!-- send -->
+                        <div class="contact-form-submit">
+                            <button type="submit">Send</button>
+                        </div>
+
+                    </form>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <!-- footer -->
+
+    <footer class="footer">
+        <div class="footer-container">
+
+            <div class="footer-name">
+                <a href="#Main">
+                    <p>KAZUHIRO TAKADA</p>
+                </a>
+            </div>
+
+
+            <nav class="footer-nav">
+                <ul>
+                    <li><a class="fotter-navlink" href="#Works">WORKS</a></li>
+                    <li><a class="fotter-navlink" href="./about.html">ABOUT</a></li>
+                    <li><a class="fotter-navlink" href="#Contact">CONTACT</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="footer-copyright">
+            <p>©︎ Kazuhiro Takada</p>
+        </div>
+
+
+
+
+
+    </footer>
+
+</body>
+
+</html>

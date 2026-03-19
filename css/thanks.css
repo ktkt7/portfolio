@@ -1,0 +1,117 @@
+@charset "utf-8";
+
+/* body {
+    background-color: #e2e2e7;
+} */
+
+.main {
+    padding-top: 0px;
+}
+
+.thanks {
+    margin: 0 auto;
+    /* width: 100%;
+    max-width: 100%; */
+    height: 100vh;
+    display: flex;
+}
+
+.thanks-container {
+    /* margin: 0 auto; */
+    display: flex;
+    flex-direction: column;
+
+    color: #383838;
+    gap: 40px;
+    padding: 60px 60px;
+}
+
+/* .thanks-firstwrapper {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 16px;
+} */
+
+.toptext {
+    color: #383838;
+    font-family: "Avenir", sans-serif;
+    font-size: 72px;
+    font-weight: 600;
+    margin-top: -8px;
+    letter-spacing: -2px;
+}
+
+.thanks-secondwrapper {
+    display: flex;
+    flex-direction: column;
+
+    align-items: flex-start;
+    gap: 80px;
+}
+
+.thanks-text {
+    color: #2c2c2c;
+    font-family: "Noto Sans JP", serif;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: flex-start;
+
+    line-height: 1.75;
+    letter-spacing: 0.1em;
+}
+
+.thanks-text :nth-of-type(2) {
+    padding-top: 4px;
+}
+
+.thanks-text :nth-of-type(3) {
+    padding-top: 4px;
+}
+
+.thanks-buttun {
+    display: flex;
+    color: #383838;
+    transition: all 0.5s;
+}
+
+.thanks-buttunlink {
+    font-size: 16px;
+    font-family: "Avenir", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    width: 100%;
+    cursor: pointer;
+    display: flex;
+}
+
+.thanks-buttun:hover {
+    opacity: 0.7;
+    text-decoration: underline;
+}
+
+/* 768 */
+
+@media screen and (max-width: 768px) {
+    .toptext {
+        font-size: 48px;
+    }
+}
+
+/* 440 */
+
+@media screen and (max-width: 440px) {
+    .thanks-container {
+        padding: 60px 15px;
+        gap: 24px;
+    }
+
+    .toptext {
+        font-size: 36px;
+    }
+
+    .thanks-text {
+        font-size: 14px;
+    }
+}

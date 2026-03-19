@@ -1,0 +1,485 @@
+@charset "utf-8";
+
+/*about- main */
+
+.profile {
+    padding-top: 50px;
+}
+
+.profile-container {
+    display: flex;
+    padding-left: 60px;
+    padding-right: 60px;
+
+    /* padding-bottom: 160px; */
+}
+
+.profile-title {
+    margin-right: 60px;
+}
+
+.profile-heading {
+    font-size: 36px;
+    font-family: "Avenir", sans-serif;
+    font-weight: 500;
+    color: #383838;
+}
+
+.profile-block {
+    display: flex;
+    justify-content: center;
+
+    width: 100%;
+    align-items: flex-end;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.profile-img {
+    width: 100%;
+    max-width: 668px;
+}
+
+.profile-img img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.profile-textarea {
+    max-width: 668px;
+    padding-top: 80px;
+}
+
+/* .name {
+    align-items: flex-start;
+    color: #fffef9;
+} */
+
+.profile-name {
+    display: flex;
+    align-items: baseline;
+    gap: 16px;
+}
+
+.name-jp {
+    font-family: "Noto Sans JP", sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    color: #383838;
+}
+
+.name-en {
+    font-family: "Avenir", sans-serif;
+    font-weight: 500;
+    font-size: 11px;
+    color: #383838;
+}
+
+.profile-text {
+    display: flex;
+    flex-direction: column;
+
+    padding-top: 8px;
+    padding-bottom: 40px;
+}
+
+.profile-text p {
+    font-family: "Noto Sans JP", sans-serif;
+    font-size: 15px;
+    line-height: 1.6;
+    color: #383838;
+    letter-spacing: 1.2px;
+    text-align: justify;
+}
+
+.favorite {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 40px;
+    gap: 8px;
+}
+
+.favorite-title {
+    font-family: "Avenir", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    color: #383838;
+}
+
+.favorite-list {
+    font-family: "Avenir", sans-serif;
+    font-size: 14px;
+    color: #383838;
+}
+
+.instagram-link {
+    font-family: "Avenir", sans-serif;
+    font-size: 14px;
+    color: #383838;
+    text-decoration: underline;
+    /* letter-spacing: 1.2px; */
+    display: inline-block;
+}
+
+.instagram-link.center {
+    display: block;
+    text-align: center;
+    margin-top: 80px;
+}
+
+/* スキル */
+
+.skill {
+    padding-top: 160px;
+}
+
+.skill-container {
+    display: flex;
+    padding-left: 60px;
+    padding-right: 60px;
+    justify-content: space-between;
+}
+
+.skill-title {
+    margin-right: 112px;
+}
+
+.skill-heading {
+    font-size: 36px;
+    font-family: "Avenir", sans-serif;
+    font-weight: 500;
+    color: #383838;
+}
+
+.skill-block {
+    max-width: 668px;
+    display: flex;
+    flex-direction: column;
+}
+
+.skill-firstitem {
+    display: flex;
+    flex-direction: column;
+}
+
+.skill-seconditem {
+    display: flex;
+    flex-direction: column;
+}
+
+.skill-firstitem h3 {
+    font-family: "Avenir", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #383838;
+    padding-bottom: 20px;
+}
+.skill-seconditem h3 {
+    font-family: "Avenir", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #383838;
+    padding-bottom: 20px;
+    padding-top: 80px;
+}
+
+.skill-description {
+    font-family: "Noto Sans JP", sans-serif;
+    font-size: 15px;
+    line-height: 1.6;
+    color: #383838;
+    letter-spacing: 1.2px;
+    padding-bottom: 8px;
+    text-align: justify;
+}
+
+.skill-tools {
+    font-family: "Avenir", sans-serif;
+    font-size: 15px;
+    color: #383838;
+}
+
+/* career */
+
+.career {
+    padding-top: 160px;
+}
+
+.career-container {
+    display: flex;
+    padding-left: 60px;
+    padding-right: 60px;
+    justify-content: space-between;
+}
+
+.career-title {
+    margin-right: 60px;
+}
+
+.career-heading {
+    font-size: 36px;
+    font-family: "Avenir", sans-serif;
+    font-weight: 500;
+    color: #383838;
+}
+
+.career-block {
+    max-width: 668px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.career-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 40px; /* spacing between year and text */
+}
+
+.career-year {
+    font-family: "Avenir", sans-serif;
+    font-size: 15px;
+    color: #383838;
+    margin-top: 6px;
+    /* fixed width ensures text after aligns regardless of year content length */
+    width: 80px;
+    flex-shrink: 0;
+}
+
+.career-text {
+    font-family: "Noto Sans JP", sans-serif;
+    font-size: 15px;
+    line-height: 1.6;
+    color: #383838;
+    letter-spacing: 1.5px;
+    text-align: justify;
+}
+
+/* graphic section */
+
+.graphic-art {
+    padding-top: 160px;
+    padding-bottom: 80px;
+    background-color: #f4f4f4;
+    margin-top: 160px;
+}
+
+.graphic-art-container {
+    padding-left: 60px;
+    padding-right: 60px;
+    overflow: hidden; /* prevent horizontal overflow of scrolling gallery */
+}
+
+.graphic-title {
+    /* display: flex;
+    justify-content: space-between;
+    align-items: flex-start; */
+    margin-bottom: 160px;
+}
+
+.graphic-heading {
+    font-size: 36px;
+    font-family: "Avenir", sans-serif;
+    font-weight: 500;
+    color: #383838;
+}
+
+.graphic-subtitle {
+    font-family: "Avenir", sans-serif;
+    font-size: 14px;
+    color: #383838;
+}
+
+.gallery {
+    margin: 0 auto;
+}
+
+.gallery-scroll {
+    overflow: hidden;
+    display: flex;
+    width: 100%;
+
+    margin-bottom: 2vw;
+}
+
+/* スクロールの塊：2つのブロックを横並びにする */
+.gallery-firstblock {
+    display: flex;
+
+    flex-shrink: 0; /* 幅が縮まないように固定 */
+    animation: infinity-scroll 40s linear infinite; /* 20秒で一周、等速、無限 */
+}
+
+.gallery-secondblock {
+    display: flex;
+
+    flex-shrink: 0;
+    /* アニメーション名は reverse-scroll に変更 */
+    animation: reverse-scroll 40s linear infinite;
+}
+
+.gallery-thirdblock {
+    display: flex;
+
+    flex-shrink: 0;
+    animation: infinity-scroll 40s linear infinite; /* 20秒で一周、等速、無限 */
+}
+
+.gallery-item {
+    flex-shrink: 0;
+    /* width: calc(100vw / 6); */
+    width: 200px;
+    margin-right: 20px; /* 画像同士の隙間 */
+}
+
+.gallery-item img {
+    width: 100%;
+
+    display: block;
+}
+
+/* アニメーション：0%から-100%（左側）へ動かす */
+@keyframes infinity-scroll {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(-100%);
+    }
+}
+
+/* 【重要】左から右へのアニメーション設定 */
+@keyframes reverse-scroll {
+    0% {
+        transform: translateX(-100%); /* 左側に1ブロック分隠れた状態から開始 */
+    }
+    100% {
+        transform: translateX(0); /* 右へ進んで元の位置に戻る */
+    }
+}
+
+/* マウスホバーで一時停止させる（お好みで） */
+.gallery-scroll:hover .gallery-firstblock {
+    animation-play-state: paused;
+}
+.gallery-scroll:hover .gallery-secondblock {
+    animation-play-state: paused;
+}
+.gallery-scroll:hover .gallery-thirdblock {
+    animation-play-state: paused;
+}
+
+/* footer */
+
+/* 1024 */
+
+@media screen and (max-width: 768px) {
+    /* .career-wrapper {
+        padding: 0 10px;
+        max-width: 600px;
+    } */
+
+    .profile-container {
+        display: flex;
+        flex-direction: column;
+        gap: 80px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .profile-block {
+        display: flex;
+        align-items: flex-start;
+        gap: 0px;
+    }
+
+    .profile-textarea {
+        padding-top: 40px;
+    }
+
+    .skill {
+        padding-top: 114px;
+    }
+
+    .skill-container {
+        display: flex;
+        flex-direction: column;
+        gap: 80px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .skill-firstitem h3 {
+        padding-bottom: 20px;
+    }
+
+    .skill-seconditem h3 {
+        padding-top: 40px;
+        padding-bottom: 20px;
+    }
+
+    .career {
+        padding-top: 114px;
+    }
+    .career-container {
+        display: flex;
+        flex-direction: column;
+        gap: 80px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .career-item {
+        gap: 10%;
+    }
+
+    .graphic-art {
+        padding-top: 80px;
+        margin-top: 80px;
+    }
+
+    .graphic-art-container {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .graphic-title {
+        margin-bottom: 80px;
+    }
+
+    .gallery-item {
+        width: 160px;
+    }
+}
+
+@media screen and (max-width: 440px) {
+    .profile {
+        padding-top: 0px;
+    }
+    .profile-container {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .skill-container {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .career-container {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .career-item {
+        gap: 2px;
+    }
+
+    .graphic-art-container {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+
+/* @media screen and (max-width: 375px) {
+} */

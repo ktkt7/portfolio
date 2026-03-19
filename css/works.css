@@ -1,0 +1,234 @@
+@charset "utf-8";
+
+.works-container {
+    margin-top: 50px;
+    padding-right: 60px;
+    padding-left: 60px;
+    padding-bottom: 160px;
+    border-bottom: 1px solid #383838;
+}
+
+.works-top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.works-main-heading {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+/* Project Title */
+.project-title {
+    display: flex;
+    margin-right: 60px;
+}
+
+.project-title h3 {
+    font-size: 36px;
+    font-family: "Avenir", sans-serif;
+    font-weight: 500;
+    color: #383838;
+    margin-top: -4px;
+}
+
+/* Project Tags */
+.project-tags {
+    display: flex;
+    gap: 15px;
+    font-family: "Avenir", sans-serif;
+    color: #8d8d8d;
+    font-size: 11px;
+    letter-spacing: 0.44px;
+    white-space: nowrap;
+}
+
+/* Project Description */
+.project-description {
+    width: 45vw;
+}
+
+.project-description p {
+    font-family: "Noto Sans JP", sans-serif;
+    font-size: 15px;
+    color: #383838;
+    letter-spacing: 1px;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+.project-img {
+    margin: 0 auto;
+    padding-top: 160px;
+    padding-bottom: 80px;
+    display: flex;
+    /* background-color: #f4f4f4; */
+}
+.project-img img {
+    width: 100%;
+}
+
+/* list */
+
+.project-details {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 80px;
+}
+
+.project-details-list {
+    display: flex;
+    width: 45vw;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.project-details-list li {
+    display: flex;
+    gap: 60px;
+}
+.project-details-list-title {
+    font-family: "Noto Sans JP", sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    width: 80px;
+    flex-shrink: 0;
+    margin-top: 3px;
+}
+
+.project-details-list-text {
+    font-family:
+        "Avenir",
+        sans-serif "Noto Sans JP",
+        sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.6;
+    letter-spacing: 0.1em;
+    text-align: justify;
+}
+
+/* .works-main-list li p:nth-child(1) {
+    font-weight: 600;
+} */
+
+/* 画像 */
+
+.project-imgblock {
+    margin: 0 auto;
+    display: flex;
+    gap: 40px;
+    padding-top: 114px;
+    justify-content: center;
+}
+
+.project-imgblock img {
+    filter: drop-shadow(0px 5px 5px rgba(161, 161, 161, 0.5));
+}
+
+.all-works {
+    margin: 0 auto;
+    width: 120px;
+    padding-top: 80px;
+    font-size: 16px;
+    font-family: "Avenir", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+    cursor: pointer;
+    display: flex;
+}
+
+.all-works:hover {
+    opacity: 0.7;
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 1024px) {
+    .works-top {
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .project-description {
+        width: 100%;
+    }
+
+    .project-img {
+        padding-top: 80px;
+    }
+
+    .project-details {
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .project-details-list {
+        width: 100%;
+    }
+
+    .project-details-list li {
+        gap: 10%;
+    }
+}
+
+/* 768*/
+@media screen and (max-width: 768px) {
+    .works-main-list li {
+        flex-direction: column;
+        gap: 20px;
+        align-items: flex-start;
+    }
+
+    .works-main-list-text {
+        width: 100%;
+    }
+
+    .works-container {
+        padding-right: 30px;
+        padding-left: 30px;
+    }
+}
+
+/* 540*/
+@media screen and (max-width: 540px) {
+    .project-title {
+        margin-right: 0px;
+    }
+    .project-imgblock {
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+    }
+
+    .project-img-sp {
+        display: flex;
+        align-items: center;
+    }
+
+    .works-container {
+        padding-bottom: 80px;
+    }
+
+    .project-img-sp {
+        width: 50%;
+    }
+
+    .all-works {
+        font-size: 14px;
+    }
+}
+
+/* 440*/
+@media screen and (max-width: 440px) {
+    .works-container {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+
+    .project-title h3 {
+        font-size: 8vw;
+    }
+}
